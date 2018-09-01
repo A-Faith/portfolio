@@ -1,0 +1,210 @@
+/********BASE*********/
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+}
+
+h2{
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  padding-top: 2px;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+}
+/**********GRID**********/
+
+.container {
+  width: 1300px;
+  height: 600px;
+}
+
+.half-width {
+    width: 650px;
+    float: left;
+    margin: 0 auto;
+}
+
+/********HEADER*******/
+
+header{
+  height: 600px;
+  background: url('../img/hero-image.jpg');
+  background-size: cover;
+}
+
+nav {
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding-left: 50px;
+}
+
+#header-text-container{
+  width: 600px;
+  float: right;
+  margin: 270px 0px 0px 50px;
+}
+
+header h1{
+  float: right;
+  text-align: right;
+  font-size: 85px;
+  line-height: 80px;
+}
+
+
+
+span{
+  font-family: 'IBM Plex Mono', monospace;
+  color: #92b19c;
+  font-size: 80px;
+  font-weight: bolder;
+}
+
+
+/****************ABOUT***********************/
+
+#about h2{
+  color: #bf2673;
+  padding-left: 50px;
+  font-size: 50px;
+}
+
+#about p{
+  padding-left: 50px;
+}
+
+#aboutmeimage{
+  padding: 75px 50px 75px 150px;
+}
+
+/*************Portfolio**********/
+
+#work h2{
+  text-align: center;
+  color: #bf2673;
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+
+#work h3{
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+#work h4{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#work p{
+  margin-top: 0;
+}
+
+.portfolio-container {
+  width: 1300px;
+  height: 1350px;
+  margin: auto 0;
+}
+
+.left-thumbnail-container {
+  width: 500px;
+  height: 350px;
+  padding-right: 50px;
+  padding-left: 100px;
+  float: left;
+}
+
+.left-image{
+  float: right;
+}
+
+.right-textbox-container {
+  width: 500px;
+  height: 350px;
+  padding-left: 50px;
+  padding-right: 100px;
+  float: left;
+}
+
+
+.left-textbox-container {
+  width: 500px;
+  height: 350px;
+  text-align: right;
+  float: left;
+  padding-left: 100px;
+}
+
+.right-thumbnail-container {
+  width: 500px;
+  height: 350px;
+  padding-left: 100px;
+  float: left;
+}
+
+.right-image {
+  float: left;
+}
+
+/********************Contact**********************/
+
+#contact h2{
+  text-align: center;
+  color: #bf2673;
+  padding-bottom: 50px;
+  font-size: 50px;
+}
+
+#contact h4{
+  text-align: center;
+  font-size: 20px;
+}
+
+#contact p {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 20px;
+}
+
+#contact img{
+  padding-left: 175px;
+}
+
+.contact-container {
+  width: 1200px;
+  margin: 0 50px;
+  height: 400px;
+}
+
+.contact-third-width{
+  width: 400px;
+  float: left;
+}
+
+/**********************Footer*********************/
+
+#footer {
+  width: 1300px;
+  height: 50px;
+  text-align: center;
+}
+#footer p{
+    font-size: 12px;
+}
